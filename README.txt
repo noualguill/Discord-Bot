@@ -1,5 +1,5 @@
-Pour lancer l'app, tu peux passer par docker en buildant et le bot se lancera tout seul.
-Soit en testant directement, soit en lançant node index.js le seul problème lorsque tu utiliseras la commande prefix il faudra relancer l'app
+Pour lancer l'app, vous pouvez passer par docker en buildant et le bot se lancera tout seul.
+Soit en testant directement, soit en lançant node index.js le seul problème lorsque vous utiliserez la commande prefix il faudra relancer l'app.
 C'est pour cela que dans mon docker je lance avec la commande npx nodemon, comme ça dès qu'il y a un changement dans un des fichiers de mon projet, il rebuild l'app.
 
 
